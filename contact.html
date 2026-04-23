@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Creative Direxion — Reach out to discuss your branding, website, or creative project. Based in South Africa, working remotely worldwide." />
+  <title>Contact — Creative Direxion</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Creative Dire<span>x</span>ion</a>
+      <div class="nav-links" role="list">
+        <a href="index.html" role="listitem">Home</a>
+        <a href="services.html" role="listitem">Services</a>
+        <a href="about.html" role="listitem">About</a>
+        <a href="portfolio.html" role="listitem">Portfolio</a>
+        <a href="contact.html" role="listitem">Contact</a>
+      </div>
+      <a href="contact.html" class="btn-primary nav-cta">Contact</a>
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-overlay">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-overlay" id="nav-overlay" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-primary">Get in Touch</a>
+  </div>
+
+  <main>
+
+    <!-- ── Hero ── -->
+    <section class="hero hero-inner-page" aria-label="Contact hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="hero-tag hero-animate hero-animate-1">Let's Connect</p>
+        <h1 class="hero-heading hero-animate hero-animate-2">Get in Touch</h1>
+        <p class="hero-tagline hero-animate hero-animate-3">Let's Talk About Your Project</p>
+        <p class="hero-desc hero-animate hero-animate-4">Whether you're starting fresh or refining an existing brand, I'm here to help. Reach out with your project details or simply say hello.</p>
+      </div>
+    </section>
+
+    <!-- ── Contact Form + Info ── -->
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Form -->
+          <div class="reveal">
+            <span class="eyebrow">Send a Message</span>
+            <h2 id="contact-heading" style="font-size: clamp(1.5rem, 3vw, 2.25rem); margin-bottom: var(--space-xl); margin-top: var(--space-sm);">Tell Me About Your Project</h2>
+
+            <div class="form-success" role="alert" aria-live="polite">
+              Thanks for reaching out! I'll review your message and get back to you within 1–2 business days.
+            </div>
+
+            <form class="contact-form" novalidate aria-label="Contact form">
+              <div class="form-group">
+                <label for="name">Name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your full name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email <span aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Type <span aria-hidden="true">*</span></label>
+                <div class="form-select-wrapper">
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service…</option>
+                    <option value="branding">Branding &amp; Visual Identity</option>
+                    <option value="website">Website Design</option>
+                    <option value="social">Social Media &amp; Ad Creative</option>
+                    <option value="book">Book Cover Design</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me about your project, timeline, and goals…"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary form-submit">Send My Project Details</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <aside class="contact-info reveal reveal-delay-2" aria-label="Contact information">
+            <div>
+              <h3>Other Ways to Reach Me</h3>
+
+              <div class="contact-detail" style="margin-bottom: var(--space-lg);">
+                <div class="contact-detail-icon" aria-hidden="true">&#9742;</div>
+                <div class="contact-detail-text">
+                  <p>Phone</p>
+                  <a href="tel:+27084442268">+27 08 444 222 68</a>
+                </div>
+              </div>
+
+              <div class="contact-detail" style="margin-bottom: var(--space-lg);">
+                <div class="contact-detail-icon" aria-hidden="true">&#9993;</div>
+                <div class="contact-detail-text">
+                  <p>Email</p>
+                  <a href="mailto:devin@creativedirexion.com">devin@creativedirexion.com</a>
+                </div>
+              </div>
+
+              <div class="contact-detail" style="margin-bottom: var(--space-lg);">
+                <div class="contact-detail-icon" aria-hidden="true">&#9679;</div>
+                <div class="contact-detail-text">
+                  <p>Location</p>
+                  <span>South Africa — remote-friendly worldwide</span>
+                </div>
+              </div>
+
+              <div class="contact-detail" style="margin-bottom: var(--space-xl);">
+                <div class="contact-detail-icon" aria-hidden="true">&#9201;</div>
+                <div class="contact-detail-text">
+                  <p>Response Time</p>
+                  <span>Typically within 24–48 hours</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 style="font-size: 1rem; margin-bottom: var(--space-md);">Connect on Social</h3>
+              <div class="contact-social" aria-label="Social media links">
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                  <span aria-hidden="true">in</span> LinkedIn
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                  <span aria-hidden="true">ig</span> Instagram
+                </a>
+                <a href="#" class="social-link" aria-label="Behance">
+                  <span aria-hidden="true">be</span> Behance
+                </a>
+                <a href="#" class="social-link" aria-label="Pinterest">
+                  <span aria-hidden="true">pt</span> Pinterest
+                </a>
+              </div>
+            </div>
+
+            <div style="margin-top: var(--space-xl); padding: var(--space-lg); background: var(--color-accent-light); border-radius: var(--radius-md); border-left: 3px solid var(--color-accent);">
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary); line-height: 1.7;">
+                <strong style="color: var(--color-text-primary);">Open to projects of all sizes.</strong><br>
+                I work with startups, SMBs, and established brands — whatever stage you're at, let's talk.
+              </p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-logo">Creative Dire<span>x</span>ion</p>
+          <p>Strategic branding and marketing creative that gives your business clear, confident, and consistent visual impact.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#branding">Branding &amp; Identity</a></li>
+            <li><a href="services.html#website-design">Website Design</a></li>
+            <li><a href="services.html#social-media">Social &amp; Ad Creative</a></li>
+            <li><a href="services.html#book-cover">Book Cover Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <p class="footer-contact-item"><a href="tel:+27084442268">+27 08 444 222 68</a></p>
+          <p class="footer-contact-item"><a href="mailto:devin@creativedirexion.com">devin@creativedirexion.com</a></p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="Behance">be</a>
+            <a href="#" aria-label="Pinterest">pt</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Creative Direxion. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

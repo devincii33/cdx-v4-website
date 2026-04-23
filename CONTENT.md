@@ -457,9 +457,8 @@ Professional book cover design that captures your story and stands out in a crow
 
 ### Additional Info (Optional)
 
-**Response Time:** I typically respond to inquiries within 24–48 hours.
+**Response Time:** I typically respond to inquiries within 12 hours.
 
-**Location:** South Africa (based / remote-friendly)
 
 **Availability:** Open to projects of all sizes. I work with startups, SMBs, and established brands.
 

@@ -17,8 +17,7 @@
 
 **Heading:** Let's Make Your Brand Unforgettable
 
-**Subheading:** with pure visual impact in your branding, websites, and marketing creative.
-
+**Subheading:** Strategic design and beautiful execution - built to make your brand look professional, feel authentic, and perform at every touchpoint.
 **Description:** Strategic design and beautiful execution - built to make your brand look professional, feel authentic, and perform at every touchpoint.
 
 ### 3 Featured Services (numbered #01–#03)

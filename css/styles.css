@@ -1387,11 +1387,7 @@ h1, h2, h3, h4 {
 }
 
 .cta-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(20, 22, 24, 0.72);
-  pointer-events: none;
+  display: none;
 }
 
 .cta-section .container {

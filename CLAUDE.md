@@ -34,8 +34,8 @@ After pushing, users must hard-refresh (`Ctrl+Shift+R`) to bypass browser cache.
 
 Always read these before writing any code:
 
-- **DESIGN.md** — All CSS custom properties (colors, spacing, typography, shadows, radii). Never hardcode values.
-- **CONTENT.md** — All page copy. Use for accurate messaging and tone.
+- **docs/DESIGN.md** — All CSS custom properties (colors, spacing, typography, shadows, radii). Never hardcode values.
+- **docs/CONTENT.md** — All page copy. Use for accurate messaging and tone.
 
 ---
 
@@ -46,7 +46,10 @@ Always read these before writing any code:
 ├── index.html / services.html / about.html / portfolio.html / contact.html
 ├── css/styles.css       ← Single stylesheet for all pages
 ├── js/main.js           ← Nav hamburger, scroll reveal, contact form
-└── images/              ← All site images (see naming conventions below)
+├── images/              ← All site images (see naming conventions below)
+└── docs/
+    ├── DESIGN.md        ← CSS custom properties reference
+    └── CONTENT.md       ← All page copy and messaging
 ```
 
 ### CSS Architecture (`css/styles.css`)
@@ -122,7 +125,7 @@ File extension must match the `src` attribute exactly (`.jpg` ≠ `.png`).
 
 - No external libraries — vanilla HTML, CSS, JS only
 - No inline styles
-- All CSS values from `--custom-properties` in DESIGN.md
+- All CSS values from `--custom-properties` in `docs/DESIGN.md`
 - Semantic HTML throughout (`<section>`, `<article>`, `<nav>`, `<main>`, `<footer>`)
 - All images: descriptive `alt` text; decorative images use `alt=""` + `aria-hidden="true"`
 - Mobile-first CSS — base styles for mobile, `@media (min-width: 768px/1024px)` for larger

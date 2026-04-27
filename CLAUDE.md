@@ -85,20 +85,29 @@ Scroll reveal uses `IntersectionObserver` with `threshold: 0.15`.
 
 ## Image Naming Conventions
 
-All images live in `images/`. Exact filenames currently in use:
+All images live in `images/`, split into three subfolders:
 
-| Image | Filename | Notes |
-|---|---|---|
-| Home hero | `hero-devin.jpg` | 3:4 portrait |
-| Services hero | `hero-services.jpg` | 16:9 |
-| About hero | `hero-about.jpg` | 16:9 |
-| Portfolio hero | `hero-portfolio.jpg` | 16:9 |
-| Contact hero | `hero-contact.jpg` | 16:9 — also used as CTA bg |
-| Featured projects (home) | `portfolio-1.jpg` `portfolio-2.jpg` `portfolio-3.jpg` | 4:3 |
-| Portfolio page (6 cards) | `portfolio-1.jpg` → `portfolio-6.jpg` | 4:3 |
-| Services (4 sections) | `service-1.jpg` → `service-4.jpg` | 4:3 |
-| About bio photo | `about-devin.jpg` | 4:5 |
-| Approach section | `approach-image.jpg` | 1:1 |
+**`images/hero/`** — Full-bleed hero backgrounds (16:9 except home which is 3:4 portrait)
+| Filename | Page |
+|---|---|
+| `hero-devin.jpg` | Home — also used as CTA bg |
+| `hero-services.jpg` | Services |
+| `hero-about.jpg` | About |
+| `hero-portfolio.jpg` | Portfolio |
+| `hero-contact.jpg` | Contact — also used as CTA bg |
+
+**`images/portfolio/`** — Portfolio project images (4:3)
+| Filename | Used on |
+|---|---|
+| `portfolio-1.jpg` → `portfolio-3.jpg` | Home featured + Portfolio page |
+| `portfolio-4.jpg` → `portfolio-6.jpg` | Portfolio page (not yet uploaded) |
+
+**`images/content/`** — All other in-page images
+| Filename | Notes |
+|---|---|
+| `about-devin.jpg` | 4:5 portrait |
+| `approach-image.jpg` | 1:1 square |
+| `service-1.jpg` → `service-4.jpg` | 4:3 — not yet uploaded |
 
 File extension must match the `src` attribute exactly (`.jpg` ≠ `.png`).
 

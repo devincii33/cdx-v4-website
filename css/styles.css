@@ -1380,7 +1380,7 @@ h1, h2, h3, h4 {
    ============================================================ */
 .cta-section {
   padding-block: var(--section-padding);
-  background-image: url('../images/hero-contact.jpg');
+  background-image: url('../images/hero/hero-contact.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

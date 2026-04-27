@@ -1,0 +1,21 @@
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# macOS (if ever opened on a Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp / editor files
+*.tmp
+*.bak
+*.swp
+*~
+
+# VS Code (workspace settings — keep these local only)
+.vscode/
+
+# Node (if ever added in future)
+node_modules/

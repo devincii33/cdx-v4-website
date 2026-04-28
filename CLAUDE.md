@@ -102,6 +102,11 @@ All images live in `images/`, split into three subfolders:
 | `portfolio-1.jpg` → `portfolio-3.jpg` | Home featured + Portfolio page |
 | `portfolio-4.jpg` → `portfolio-6.jpg` | Portfolio page (not yet uploaded) |
 
+**`images/cta/`** — CTA section background images
+| Filename | Notes |
+|---|---|
+| *(drop your CTA background images here)* | |
+
 **`images/content/`** — All other in-page images
 | Filename | Notes |
 |---|---|

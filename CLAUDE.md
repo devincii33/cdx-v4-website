@@ -105,7 +105,7 @@ All images live in `images/`, split into three subfolders:
 **`images/cta/`** — CTA section background images
 | Filename | Notes |
 |---|---|
-| *(drop your CTA background images here)* | |
+| `cta-bgr-2.jpg` | Used on all CTA sections (all pages) |
 
 **`images/content/`** — All other in-page images
 | Filename | Notes |

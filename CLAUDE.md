@@ -87,14 +87,11 @@ Scroll reveal uses `IntersectionObserver` with `threshold: 0.15`.
 
 All images live in `images/`, split into three subfolders:
 
-**`images/hero/`** — Full-bleed hero backgrounds (16:9 except home which is 3:4 portrait)
+**`images/hero/`** — Full-bleed hero backgrounds
 | Filename | Page |
 |---|---|
-| `hero-devin.jpg` | Home — also used as CTA bg |
-| `hero-services.jpg` | Services |
-| `hero-about.jpg` | About |
-| `hero-portfolio.jpg` | Portfolio |
-| `hero-contact.jpg` | Contact — also used as CTA bg |
+| `hero-home-2.jpg` | Home page only |
+| `hero-pages-2.jpg` | All inner pages (Services, About, Portfolio, Contact) |
 
 **`images/portfolio/`** — Portfolio project images (4:3)
 | Filename | Used on |
